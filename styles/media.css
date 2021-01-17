@@ -156,6 +156,51 @@ footer {
     .icon.nav-icon-5 {
         display: inline-block;
     }
+
+   
+.header-nav.open {
+    padding: 0;
+}
+
+.ul-items.open {
+   width: 100%;
+} 
+
+.ul-items.open li a {
+    color: white;
+}
+
+.nav-icon-5.close {
+    z-index: 2;
+}
+
+.nav-icon-5.close span {
+    background-color: white;
+}
+
+.nav-icon-5.close span {
+    background-color: black;
+}
+
+.nav-icon-5.open span {
+    background-color: white;
+}
+
+.ul-items {
+    background-color: black;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    font-size: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+    overflow: hidden;
+}
+
 }
 
 
@@ -195,8 +240,12 @@ footer {
 
     .ul-items {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         width: 38rem;
+        background-color: transparent;
+        position: initial;
+        z-index: initial;
     }
 
     .ul-items li {

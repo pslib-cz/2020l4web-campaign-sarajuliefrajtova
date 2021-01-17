@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/media.css">
-    <link rel="stylesheet" href="./styles/nav-icon.css"
+    <link rel="stylesheet" href="./styles/nav-icon.css">
     <link rel="stylesheet" href="https://use.typekit.net/nwz6zta.css">
     <title>FlyPods
     </title>
@@ -22,13 +22,13 @@
                     <img src="./images/Line2-Mobile.png" alt="Line">
                     <li><a>EN</a></li>
                 </ul>
-                <ul class="ul-items">
+                <ul id="nav" class="ul-items open">
                     <li><a href="#1">Domů</a></li>
                     <li><a href="#2">FlyPods</a></li>
                     <li><a href="#3">Sledujte nás</a></li>
                     <li><a href="#4">Koupit nyní</a></li>
                 </ul>
-                <div class="icon nav-icon-5">
+                <div id="opener" class="icon nav-icon-5 close">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -164,12 +164,20 @@
 </body>
 
 <script>
-const icons = document.querySelectorAll('.icon');
-icons.forEach (icon => {  
+const icon = document.querySelector('#opener');
+const nav = document.querySelector('#nav');
+ 
   icon.addEventListener('click', (event) => {
-    icon.classList.toggle("open");
+    if(icon.classList.contains('open')) {
+        icon.classList.remove('open');
+        nav.classList.remove('open');
+    } else {
+        icon.classList.add('open');
+        nav.classList.add('open');
+    }
   });
-});
+
+
 </script>
 
 </html>
