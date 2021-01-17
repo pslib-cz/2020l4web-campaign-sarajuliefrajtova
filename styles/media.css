@@ -378,6 +378,10 @@ footer {
 
 @media only screen and (min-width: 1200px) and (max-width: 1920px) {
 
+    .vertical-text-wrapper {
+        bottom: 56%;
+    }
+
     .flex-img-p {
         flex-direction: row;
         height: 80vh;
@@ -474,6 +478,8 @@ footer {
 
    #ninth {
        grid-column: 2 / span 4;
+       grid-row: 2;
+       align-self: center;
    }
 
    .fly-pods2 {

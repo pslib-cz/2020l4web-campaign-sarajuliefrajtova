@@ -114,7 +114,7 @@ footer {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding: 0 15px;
+    padding: 10px 15px;
 }
 
 .lang-changer {
