@@ -166,7 +166,7 @@ footer {
    width: 100%;
 } 
 
-.ul-items.open li a {
+.ul-items li a {
     color: white;
 }
 
@@ -238,7 +238,7 @@ footer {
         transform-origin: 40% 51.5%;
     }
 
-    .ul-items {
+    .header-nav > .ul-items {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -491,7 +491,7 @@ footer {
         width: 5rem;
     }
 
-    .ul-items {
+    .header-nav > .ul-items {
         width: 55rem;
     }
 

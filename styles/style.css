@@ -735,7 +735,7 @@ a {
    width: 100%;
 } 
 
-.ul-items.open li a {
+.ul-items li a {
     color: white;
 }
 
