@@ -110,7 +110,7 @@ footer {
 
 /* Nav & lists*/
 
-.header-ul {
+.header-nav {
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -122,7 +122,10 @@ footer {
     width: 60px;
     justify-content: space-between;
     align-items: center;
+}
 
+.lang-changer li, .ul-items li {
+    list-style-type: none;
 }
 
 /* Headers */
@@ -701,3 +704,4 @@ a {
     grid-row-end: 3;
     justify-self: stretch;
 }
+
