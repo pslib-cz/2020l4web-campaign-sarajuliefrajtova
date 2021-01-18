@@ -376,13 +376,14 @@ footer {
     }
 
     .fly-pods3 {
-        grid-template-rows: 0px 1fr 1fr 1fr;
+        grid-template-rows: 0px .5fr 1fr 1fr;
     }
 
     #flypods3-h2 {
         line-height: 50px;
         padding-right: 12rem;
         font-size: 29px;
+        align-self: end;
     }
 
     #flypods3-text {
@@ -390,6 +391,7 @@ footer {
         font-size: 17px;
         width: 37rem;
         padding: 0;
+        align-self: start;
     }
 
     .fly-pods4 {
