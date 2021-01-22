@@ -629,6 +629,7 @@ footer {
             "flypods3-text";
         grid-template-columns: 60px 1fr 1fr;
         grid-template-rows: .5fr 1fr 1fr;
+        width: 100%;
     }
 
     #flypods4-img {
@@ -749,10 +750,6 @@ footer {
 
     .buy-now-img2 {
         transform: rotate(90deg);
-    }
-
-    .fly-pods1, .fly-pods2, .fly-pods3, .fly-pods4, .follow-us, .buy-now, footer {
-        max-width: 100%;
     }
 
 }
