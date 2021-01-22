@@ -557,6 +557,7 @@ footer {
             "flypods2-img flypods2-text";
         grid-template-columns: 60px 60%;
         grid-template-rows: 1fr 2.7fr;
+        max-width: 100%;
     }
 
     #flypods2-img {
