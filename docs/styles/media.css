@@ -448,10 +448,6 @@ footer {
 
 @media only screen and (min-width: 1200px) and (max-width: 1920px) {
 
-    .fly-pods1, .fly-pods2, .fly-pods3, .fly-pods4, .follow-us, .buy-now, footer {
-        max-width: 100%;
-    }
-
     .vertical-text-wrapper {
         bottom: 56%;
     }
@@ -755,6 +751,9 @@ footer {
         transform: rotate(90deg);
     }
 
+    .fly-pods1, .fly-pods2, .fly-pods3, .fly-pods4, .follow-us, .buy-now, footer {
+        max-width: 100%;
+    }
 
 }
 
