@@ -629,7 +629,6 @@ footer {
             "flypods3-text";
         grid-template-columns: 60px 1fr 1fr;
         grid-template-rows: .5fr 1fr 1fr;
-        width: 100%;
     }
 
     #flypods4-img {
