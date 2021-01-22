@@ -204,7 +204,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 761px) and (max-width: 1440px) {
+@media only screen and (min-width: 761px) and (max-width: 1920px) {
 
     .header-img {
         width: 35rem;
@@ -557,7 +557,6 @@ footer {
             "flypods2-img flypods2-text";
         grid-template-columns: 60px 60%;
         grid-template-rows: 1fr 2.7fr;
-        max-width: 100%;
     }
 
     #flypods2-img {
@@ -751,5 +750,67 @@ footer {
     .buy-now-img2 {
         transform: rotate(90deg);
     }
+
+    .fly-pods1, .fly-pods2, .fly-pods3, .fly-pods4, .follow-us, .buy-now, footer {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+
+    .icon.nav-icon-5 {
+        display: none;
+    }
+
+    #flypods3-h2 {
+        font-size: 40Px;
+        line-height: 50px;
+    }
+
+    #flypods4-h2-group {
+        justify-self: center;
+        width: 26rem;
+    }
+
+    #flypods4-h2-group h2:nth-of-type(1), #flypods4-h2-group h2:nth-of-type(2) {
+        text-align: center;
+        font-size: 30Px;
+    }
+
+    #newsletter-text {
+        width: 41rem;
+        justify-self: center;
+    }
+
+    .news-letter-text p:nth-of-type(1), .news-letter-text p:nth-of-type(2) {
+        line-height: 56px;
+    }
+
+    .news-letter-text p:nth-of-type(2) {
+        top: -28px;
+    }
+
+    .flex-header-p {
+        width: 30rem;
+        height: auto;
+    }
+
+    .header-p {
+        font-size: 30px;
+    }
+
+    .second {
+        top: 1px;
+        left: 44px;
+    }
+
+    .header-p.third {
+        transform-origin: 54% 25%;
+    }
+
+    .header-p.fourth {
+        transform-origin: 54.5% 20%;
+    }
+
 }
 
