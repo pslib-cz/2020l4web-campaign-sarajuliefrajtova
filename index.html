@@ -2,6 +2,16 @@
 <html lang="cs">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GD9NSPDTKM');
+</script>
+    <!-- End Google Analytics -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/normalize.css">
@@ -82,9 +92,9 @@
 
         <section class="fly-pods3">
                 <h2 id="flypods3-h2">
-                    „Nechte se</br> 
-                    unést</br> 
-                    vyjímečností.“</br>
+                    „Nechte se<br> 
+                    unést<br> 
+                    vyjímečností.“<br>
                 </h2>
             <div id="flypods3-img">
             <img src="./images/final2.jpg" alt="Modelka se sluchátky FlyPods"
@@ -161,23 +171,23 @@
 
     </footer>
 
+
+    <script>
+        const icon = document.querySelector('#opener');
+        const nav = document.querySelector('#nav');
+         
+          icon.addEventListener('click', (event) => {
+            if(icon.classList.contains('open')) {
+                icon.classList.remove('open');
+                nav.classList.remove('open');
+            } else {
+                icon.classList.add('open');
+                nav.classList.add('open');
+            }
+          });
+        
+        
+        </script>
 </body>
-
-<script>
-const icon = document.querySelector('#opener');
-const nav = document.querySelector('#nav');
- 
-  icon.addEventListener('click', (event) => {
-    if(icon.classList.contains('open')) {
-        icon.classList.remove('open');
-        nav.classList.remove('open');
-    } else {
-        icon.classList.add('open');
-        nav.classList.add('open');
-    }
-  });
-
-
-</script>
 
 </html>
