@@ -816,5 +816,13 @@ footer {
 
     }
 
+    .vertical-text-wrapper {
+        left: 20px
+    }
+
+    .vertical-text-wrapper h1 {
+        font-size: 6rem;
+    }
+
 }
 
